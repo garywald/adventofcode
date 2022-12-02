@@ -15,7 +15,7 @@ func check(e error) {
 
 func main() {
 
-    readFile, err := os.Open("input.txt")
+    readFile, err := os.Open("day1/input.txt")
     check(err)
 
     fileScanner := bufio.NewScanner(readFile)
